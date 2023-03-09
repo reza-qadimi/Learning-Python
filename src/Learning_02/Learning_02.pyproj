@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>0128df15-b58e-4233-bae0-3ca9d7669922</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>DataTypes\number.py</StartupFile>
+    <StartupFile>DataTypes\boolean.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
