@@ -1,0 +1,14 @@
+ - download and install python (v-3+):
+	https://www.python.org/
+
+ run		->	command prompt
+ write		->	python --version
+
+ write		->	python OR py
+ press enter
+ write		->	print('hello, world!');
+ press enter
+ type the following to quit the python command line interface:
+ write		->	exit()
+
+ python filename.py -> run this file
