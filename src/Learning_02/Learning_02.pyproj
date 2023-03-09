@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>b9a5c449-0906-4a29-b1bf-db77ae733559</ProjectGuid>
+    <ProjectGuid>0128df15-b58e-4233-bae0-3ca9d7669922</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>program.py</StartupFile>
+    <StartupFile>Learning_02.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Learning_01</Name>
-    <RootNamespace>Learning_01</RootNamespace>
+    <Name>Learning_02</Name>
+    <RootNamespace>Learning_02</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,14 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="program.py" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="_documents\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="_documents\GetStarted.txt" />
-    <Content Include="_documents\Readme.txt" />
+    <Compile Include="Learning_02.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
