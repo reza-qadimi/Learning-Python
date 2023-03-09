@@ -21,6 +21,8 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="DataTypes\boolean.py" />
+    <Compile Include="DataTypes\number.py" />
     <Compile Include="DataTypes\string.py" />
     <Compile Include="program.py" />
   </ItemGroup>
