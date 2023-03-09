@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b9a5c449-0906-4a29-b1bf-db77ae733559</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>program.py</StartupFile>
+    <StartupFile>googooli.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="googooli.py" />
     <Compile Include="program.py" />
   </ItemGroup>
   <ItemGroup>
