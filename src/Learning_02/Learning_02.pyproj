@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>0128df15-b58e-4233-bae0-3ca9d7669922</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>program.py</StartupFile>
+    <StartupFile>DataTypes\string.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,12 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="DataTypes\string.py" />
     <Compile Include="program.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DataTypes\" />
+    <Folder Include="Loops\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
