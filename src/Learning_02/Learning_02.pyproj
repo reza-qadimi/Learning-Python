@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>0128df15-b58e-4233-bae0-3ca9d7669922</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>DataTypes\list.py</StartupFile>
+    <StartupFile>DataTypes\tuple.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,9 +22,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="DataTypes\boolean.py" />
+    <Compile Include="DataTypes\dictionary.py" />
     <Compile Include="DataTypes\list.py" />
     <Compile Include="DataTypes\number.py" />
+    <Compile Include="DataTypes\set.py" />
     <Compile Include="DataTypes\string.py" />
+    <Compile Include="DataTypes\tuple.py" />
     <Compile Include="program.py" />
   </ItemGroup>
   <ItemGroup>
