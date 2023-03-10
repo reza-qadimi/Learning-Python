@@ -434,3 +434,142 @@
 #-------------------------
 #-------------------------
 #-------------------------
+
+
+#-------------------------
+#-------------------------
+#-------------------------
+
+#numbers = [10, 20, 3, 15, 1616]
+
+#print(numbers)
+
+#numbers.sort()
+
+#print(numbers)
+
+#-------------------------
+
+#numbers = [10, 20, 3, 15, 1616]
+
+#print(numbers)
+
+#numbers.sort(reverse = True)
+
+#print(numbers)
+
+#-------------------------
+
+#cars = ["BMW", "Benz", "Iran Khodro", "Kia"]
+
+#print(cars)
+
+#cars.sort()
+
+#print(cars)
+
+#-------------------------
+
+#cars = ["BMW", "Benz", "Iran Khodro", "Kia"]
+
+#print(cars)
+
+##case-insensitive
+#cars.sort(key = str.lower)
+
+#print(cars)
+
+#-------------------------
+
+#cars = ["BMW", "Benz", "Iran Khodro", "Kia"]
+
+#print(cars)
+
+#cars.reverse()
+
+#print(cars)
+
+#-------------------------
+
+#def customizeSort(value):
+#	result = abs(value - 50)
+
+#	return result
+
+#numbers = [10, 20.1, 30, 40, 50, 60, 70, 80, 90, 100]
+
+#print(numbers)
+
+#numbers.sort(key = customizeSort)
+
+#print(numbers)
+
+#-------------------------
+#-------------------------
+#-------------------------
+
+#-------------------------
+#-------------------------
+#-------------------------
+
+#cars1 = ["BMW", "Benz", "Iran Khodro", "Kia"]
+
+#print(cars1)
+
+#cars2 =  cars1.copy()
+
+#print(cars2)
+
+#-------------------------
+
+#cars1 = ["BMW", "Benz", "Iran Khodro", "Kia"]
+
+#print(cars1)
+
+#cars2 =  list(cars1)
+
+#print(cars2)
+
+#-------------------------
+#-------------------------
+#-------------------------
+
+#-------------------------
+#-------------------------
+#-------------------------
+
+#cars = ["BMW", "Benz", "Iran Khodro", "Kia"]
+#numbers = [10, 20.1, 30, 40, 50, 60, 70, 80, 90, 100]
+
+#mixedList = cars + numbers
+
+#print(mixedList)
+
+#-------------------------
+
+#cars = ["BMW", "Benz", "Iran Khodro", "Kia"]
+#numbers = [10, 20.1, 30, 40, 50, 60, 70, 80, 90, 100]
+
+#mixedList = cars.extend(numbers)
+
+#print(mixedList)
+
+#-------------------------
+
+#cars = ["BMW", "Benz", "Iran Khodro", "Kia"]
+#numbers = [10, 20.1, 30, 40, 50, 60, 70, 80, 90, 100]
+
+#mixedList = cars.extend(numbers)
+
+#print(mixedList)
+
+#-------------------------
+#-------------------------
+#-------------------------
+
+
+#-------------------------
+#Python - List Methods()
+#-------------------------
+#https://www.w3schools.com/python/python_lists_methods.asp
+#-------------------------
