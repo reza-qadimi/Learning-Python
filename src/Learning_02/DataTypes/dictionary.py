@@ -537,3 +537,77 @@
 #-------------------------
 #-------------------------
 #-------------------------
+
+#-------------------------
+#-------------------------
+#-------------------------
+
+#user = {
+#	"username": "Reza-Qadimi",
+
+#	"firstName": "Reza",
+#	"lastName": "Qadimi",
+
+#	"birthDate": 1995,
+
+#	"isActive": True,
+#	"isVerified": True,
+#}
+
+#for item in user: #print keys
+#	print(item)
+
+#-------------------------
+
+#user = {
+#	"username": "Reza-Qadimi",
+
+#	"firstName": "Reza",
+#	"lastName": "Qadimi",
+
+#	"birthDate": 1995,
+
+#	"isActive": True,
+#	"isVerified": True,
+#}
+
+#for item in user.keys():
+#	print(item)
+
+#-------------------------
+
+#user = {
+#	"username": "Reza-Qadimi",
+
+#	"firstName": "Reza",
+#	"lastName": "Qadimi",
+
+#	"birthDate": 1995,
+
+#	"isActive": True,
+#	"isVerified": True,
+#}
+
+#for item in user.values():
+#	print(item)
+
+#-------------------------
+
+#user = {
+#	"username": "Reza-Qadimi",
+
+#	"firstName": "Reza",
+#	"lastName": "Qadimi",
+
+#	"birthDate": 1995,
+
+#	"isActive": True,
+#	"isVerified": True,
+#}
+
+#for item in user.items():
+#	print(item)
+
+#-------------------------
+#-------------------------
+#-------------------------
