@@ -402,3 +402,35 @@
 #-------------------------
 #-------------------------
 #-------------------------
+
+#cars = ["BMW", "Benz", "Iran Khodro", "Kia"]
+
+#selectedCars = []
+
+#for item in cars:
+#	if "B" in item:
+#		selectedCars.append(item)
+
+#print(selectedCars)
+
+#-------------------------
+
+##newlist = [expression for item in iterable if condition == True]
+
+#cars = ["BMW", "Benz", "Iran Khodro", "Kia"]
+
+#selectedCars = [item for item in cars if "B" in item]
+
+#print(selectedCars)
+
+#-------------------------
+
+#cars = ["BMW", "Benz", "Iran Khodro", "Kia"]
+
+#selectedCars = [item.upper() if "B" in item else item.lower() for item in cars]
+
+#print(selectedCars)
+
+#-------------------------
+#-------------------------
+#-------------------------
