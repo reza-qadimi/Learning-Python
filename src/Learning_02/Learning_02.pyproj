@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>0128df15-b58e-4233-bae0-3ca9d7669922</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>DataTypes\boolean.py</StartupFile>
+    <StartupFile>DataTypes\list.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="DataTypes\boolean.py" />
+    <Compile Include="DataTypes\list.py" />
     <Compile Include="DataTypes\number.py" />
     <Compile Include="DataTypes\string.py" />
     <Compile Include="program.py" />
@@ -29,6 +30,10 @@
   <ItemGroup>
     <Folder Include="DataTypes\" />
     <Folder Include="Loops\" />
+    <Folder Include="_documents\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="_documents\Readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
