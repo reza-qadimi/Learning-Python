@@ -211,6 +211,94 @@
 #-------------------------
 #-------------------------
 
+#cars = ["BMW", "Benz", "Iran Khodro", "Kia"]
+
+#print(cars)
+
+#cars.remove("Iran Khodro")
+
+#print(cars)
+
+#-------------------------
+
+#cars = ["BMW", "Benz", "Iran Khodro", "Kia"]
+
+#print(cars)
+
+#cars.remove("iran khodro") #Runtime Error: list.remove(x): x not in list
+
+#print(cars)
+
+#-------------------------
+
+#cars = ["BMW", "Benz", "Iran Khodro", "Kia", "Iran Khodro"]
+
+#print(cars)
+
+#cars.remove("Iran Khodro")
+
+#print(cars)
+
+#-------------------------
+
+#cars = ["BMW", "Benz", "Iran Khodro", "Kia"]
+
+#print(cars)
+
+#cars.pop()
+
+#print(cars)
+
+#-------------------------
+
+#cars = ["BMW", "Benz", "Iran Khodro", "Kia"]
+
+#print(cars)
+
+#cars.pop(0)
+
+#print(cars)
+
+#-------------------------
+
+#cars = ["BMW", "Benz", "Iran Khodro", "Kia"]
+
+#print(cars)
+
+#cars.pop(2)
+
+#print(cars)
+
+#-------------------------
+
+#cars = ["BMW", "Benz", "Iran Khodro", "Kia"]
+
+#print(cars)
+
+#del cars
+
+#print(cars) # Runtime Error: name 'cars' is not defined
+
+#-------------------------
+
+#cars = ["BMW", "Benz", "Iran Khodro", "Kia"]
+
+#print(cars)
+
+#del cars[0]
+
+#print(cars)
+
+#-------------------------
+
+#cars = ["BMW", "Benz", "Iran Khodro", "Kia"]
+
+#print(cars)
+
+#cars.clear()
+
+#print(cars)
+
 #-------------------------
 #-------------------------
 #-------------------------
