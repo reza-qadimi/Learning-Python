@@ -302,3 +302,103 @@
 #-------------------------
 #-------------------------
 #-------------------------
+
+#cars = ["BMW", "Benz", "Iran Khodro", "Kia"]
+
+#for item in cars:
+#	print(item)
+
+#-------------------------
+
+#cars = ["BMW", "Benz", "Iran Khodro", "Kia"]
+
+#carsLength = len(cars);
+
+#for index in range(carsLength):
+
+#	currentItem = cars[index];
+
+#	print(currentItem)
+
+#-------------------------
+
+#cars = ["BMW", "Benz", "Iran Khodro", "Kia"]
+
+#for index, item in enumerate(cars):
+
+#	message = f"{index + 1}. {item}"
+
+#	print(message)
+
+#-------------------------
+
+#index = 0
+
+#cars = ["BMW", "Benz", "Iran Khodro", "Kia"]
+
+#while index < len(cars):
+
+#	currentItem = cars[index]
+
+#	message = f"{index + 1}. {currentItem}"
+
+#	print(message)
+
+#	index += 1
+#	#index = index + 1
+
+#-------------------------
+
+#index = 0
+
+#cars = ["BMW", "Benz", "Iran Khodro", "Kia"]
+
+#while index < cars.__len__():
+
+#	currentItem = cars[index]
+
+#	message = f"{index + 1}. {currentItem}"
+
+#	print(message)
+
+#	index += 1
+#	#index = index + 1
+
+#-------------------------
+
+#index = 0
+
+#cars = ["BMW", "Benz", "Iran Khodro", "Kia"]
+
+#carsLength = len(cars);
+
+#while index < carsLength:
+
+#	currentItem = cars[index]
+
+#	message = f"{index + 1}. {currentItem}"
+
+#	print(message)
+
+#	index += 1
+#	#index = index + 1
+
+#-------------------------
+
+#cars = ["BMW", "Benz", "Iran Khodro", "Kia"]
+
+#[print(item) for item in cars]
+
+#-------------------------
+
+#cars = ["BMW", "Benz", "Iran Khodro", "Kia"]
+
+#[print(f"{index + 1}. {item}") for index, item in enumerate(cars)]
+
+#-------------------------
+#-------------------------
+#-------------------------
+
+#-------------------------
+#-------------------------
+#-------------------------
