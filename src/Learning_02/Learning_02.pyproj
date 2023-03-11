@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>0128df15-b58e-4233-bae0-3ca9d7669922</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Conditions\condition.py</StartupFile>
+    <StartupFile>Loops\for.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -29,6 +29,8 @@
     <Compile Include="DataTypes\set.py" />
     <Compile Include="DataTypes\string.py" />
     <Compile Include="DataTypes\tuple.py" />
+    <Compile Include="Loops\for.py" />
+    <Compile Include="Loops\while.py" />
     <Compile Include="program.py" />
   </ItemGroup>
   <ItemGroup>
