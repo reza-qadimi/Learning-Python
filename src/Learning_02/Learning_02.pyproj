@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>0128df15-b58e-4233-bae0-3ca9d7669922</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>DataTypes\dictionary.py</StartupFile>
+    <StartupFile>Conditions\condition.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Conditions\condition.py" />
     <Compile Include="DataTypes\boolean.py" />
     <Compile Include="DataTypes\dictionary.py" />
     <Compile Include="DataTypes\list.py" />
@@ -33,6 +34,7 @@
   <ItemGroup>
     <Folder Include="DataTypes\" />
     <Folder Include="Loops\" />
+    <Folder Include="Conditions\" />
     <Folder Include="_documents\" />
   </ItemGroup>
   <ItemGroup>
