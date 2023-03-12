@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>85f30d08-4b45-4952-9047-92b6d8df8f7a</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>OOP\inheritance.py</StartupFile>
+    <StartupFile>Module\program.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,11 +21,14 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Folder Include="OOP\" />
+    <Folder Include="Module\" />
+    <Folder Include="Class_Obj_Interface\" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="OOP\class.py" />
-    <Compile Include="OOP\inheritance.py" />
+    <Compile Include="Class_Obj_Interface\class.py" />
+    <Compile Include="Class_Obj_Interface\inheritance.py" />
+    <Compile Include="Module\module.py" />
+    <Compile Include="Module\program.py" />
     <Compile Include="program.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
