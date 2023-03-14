@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>0128df15-b58e-4233-bae0-3ca9d7669922</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>DataTypes\date.py</StartupFile>
+    <StartupFile>Helpers\math.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -33,6 +33,7 @@
     <Compile Include="DataTypes\tuple.py" />
     <Compile Include="Functions\function.py" />
     <Compile Include="Functions\lambda.py" />
+    <Compile Include="Helpers\math.py" />
     <Compile Include="Loops\for.py" />
     <Compile Include="Loops\while.py" />
     <Compile Include="program.py" />
@@ -42,6 +43,7 @@
     <Folder Include="Loops\" />
     <Folder Include="Conditions\" />
     <Folder Include="Functions\" />
+    <Folder Include="Helpers\" />
     <Folder Include="_documents\" />
   </ItemGroup>
   <ItemGroup>
