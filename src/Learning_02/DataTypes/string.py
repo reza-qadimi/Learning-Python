@@ -442,6 +442,25 @@
 #-------------------------
 #-------------------------
 #-------------------------
+
+##Python allows for user input.
+##That means we are able to ask the user for input.
+
+#username = input("Please enter username: ")
+
+#print(username)
+
+#usernameType = type(username)
+
+#print(usernameType)
+
+#-------------------------
+#-------------------------
+#-------------------------
+
+#-------------------------
+#-------------------------
+#-------------------------
 #https://www.w3schools.com/python/python_strings_methods.asp
 
 #center()		Returns a centered string

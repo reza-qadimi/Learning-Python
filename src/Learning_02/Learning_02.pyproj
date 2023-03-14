@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>0128df15-b58e-4233-bae0-3ca9d7669922</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Functions\lambda.py</StartupFile>
+    <StartupFile>DataTypes\date.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,7 +23,9 @@
   <ItemGroup>
     <Compile Include="Conditions\condition.py" />
     <Compile Include="DataTypes\boolean.py" />
+    <Compile Include="DataTypes\date.py" />
     <Compile Include="DataTypes\dictionary.py" />
+    <Compile Include="DataTypes\json.py" />
     <Compile Include="DataTypes\list.py" />
     <Compile Include="DataTypes\number.py" />
     <Compile Include="DataTypes\set.py" />

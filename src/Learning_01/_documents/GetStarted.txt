@@ -12,3 +12,15 @@
  write		->	exit()
 
  python filename.py -> run this file
+
+
+CMD:
+	- pip:
+		- PIP is a package manager for Python packages, or modules if you like.
+
+		- pip --version
+
+		- pip list
+
+		- pip install camelcase
+		- pip uninstall camelcase
