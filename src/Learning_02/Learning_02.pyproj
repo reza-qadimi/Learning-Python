@@ -49,6 +49,7 @@
     <Folder Include="_documents\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="_documents\iterator.txt" />
     <Content Include="_documents\Readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
