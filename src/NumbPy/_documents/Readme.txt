@@ -40,3 +40,25 @@ This is the main reason why NumPy is faster than lists. Also it is optimized to 
 --------------------------------------------------
 https://github.com/numpy/numpy
 --------------------------------------------------
+
+--------------------------------------------------
+Python:
+	boolean - used to represent True or False.
+	float - used to represent real numbers. e.g. 1.2, 42.42
+	integer - used to represent integer numbers. e.g. -1, -2, -3
+	complex - used to represent complex numbers. e.g. 1.0 + 2.0j, 1.5 + 2.5j
+	strings - used to represent text data, the text is given under quote marks. e.g. "ABCD"
+--------------------------------------------------
+Numpy:
+	f - float
+	S - string
+	O - object
+	i - integer
+	b - boolean
+	M - datetime
+	m - timedelta
+	c - complex float
+	U - unicode string
+	u - unsigned integer
+	V - fixed chunk of memory for other type ( void )
+--------------------------------------------------

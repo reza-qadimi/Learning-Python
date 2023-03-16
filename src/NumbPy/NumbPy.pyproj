@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f973afe8-1262-4c1c-bed6-5a41fe43a645</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>NumbPy.py</StartupFile>
+    <StartupFile>Step_01\Learning_01.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,12 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="NumbPy.py" />
+    <Folder Include="Step_01\" />
+    <Folder Include="_documents\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Step_01\Learning_01.py" />
+    <Content Include="_documents\Readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
