@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>cd21bdb1-c40f-4d82-95ab-e8e56c446b96</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>FileManager\openfile.py</StartupFile>
+    <StartupFile>FileManager\write.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,9 +22,17 @@
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="FileManager\" />
+    <Folder Include="_documents\" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FileManager\openfile.py" />
+    <Compile Include="FileManager\create.py" />
+    <Compile Include="FileManager\delete.py" />
+    <Compile Include="FileManager\read.py" />
+    <Compile Include="FileManager\write.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="FileManager\_test.txt" />
+    <Content Include="_documents\Readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
