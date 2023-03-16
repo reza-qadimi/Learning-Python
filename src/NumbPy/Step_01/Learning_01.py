@@ -450,10 +450,25 @@
 
 #--------------------------------------------------
 
-import numpy
+#import numpy
 
-myArray = numpy.array([10, 20, 3, 15, 1000, 60, 16])
+#myArray = numpy.array([10, 20, 3, 15, 1000, 60, 16])
 
-print(numpy.sort(myArray))
+#print(numpy.sort(myArray))
+
+#--------------------------------------------------
+
+#import numpy
+
+#myArray = numpy.array([10, 20, 3, 15, 1000, 60, 16])
+
+#for item in myArray:
+#	if item % 2 == 0:
+#		print(item)
+
+
+#myFilter = myArray % 2 == 0
+
+#print(myArray[myFilter])
 
 #--------------------------------------------------
