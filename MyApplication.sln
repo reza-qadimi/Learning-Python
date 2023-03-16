@@ -11,6 +11,12 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Learning_03", "src\Learning
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Learning_04", "src\Learning_04\Learning_04.pyproj", "{CD21BDB1-C40F-4D82-95AB-E8E56C446B96}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Learnings", "Learnings", "{FD23B52A-4AB6-40E2-95EF-13376682426D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{FEFE54F7-2C23-49C6-8B18-B6E4F3E443BA}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "NumbPy", "src\NumbPy\NumbPy.pyproj", "{F973AFE8-1262-4C1C-BED6-5A41FE43A645}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,9 +31,18 @@ Global
 		{85F30D08-4B45-4952-9047-92B6D8DF8F7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD21BDB1-C40F-4D82-95AB-E8E56C446B96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CD21BDB1-C40F-4D82-95AB-E8E56C446B96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F973AFE8-1262-4C1C-BED6-5A41FE43A645}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F973AFE8-1262-4C1C-BED6-5A41FE43A645}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B9A5C449-0906-4A29-B1BF-DB77AE733559} = {FD23B52A-4AB6-40E2-95EF-13376682426D}
+		{0128DF15-B58E-4233-BAE0-3CA9D7669922} = {FD23B52A-4AB6-40E2-95EF-13376682426D}
+		{85F30D08-4B45-4952-9047-92B6D8DF8F7A} = {FD23B52A-4AB6-40E2-95EF-13376682426D}
+		{CD21BDB1-C40F-4D82-95AB-E8E56C446B96} = {FD23B52A-4AB6-40E2-95EF-13376682426D}
+		{F973AFE8-1262-4C1C-BED6-5A41FE43A645} = {FEFE54F7-2C23-49C6-8B18-B6E4F3E443BA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6D4EC23E-C116-4A37-A988-77EE4DB1BFE8}
