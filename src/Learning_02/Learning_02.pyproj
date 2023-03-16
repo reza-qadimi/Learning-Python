@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>0128df15-b58e-4233-bae0-3ca9d7669922</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Helpers\math.py</StartupFile>
+    <StartupFile>Helpers\regex.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -34,6 +34,7 @@
     <Compile Include="Functions\function.py" />
     <Compile Include="Functions\lambda.py" />
     <Compile Include="Helpers\math.py" />
+    <Compile Include="Helpers\regex.py" />
     <Compile Include="Loops\for.py" />
     <Compile Include="Loops\while.py" />
     <Compile Include="program.py" />
