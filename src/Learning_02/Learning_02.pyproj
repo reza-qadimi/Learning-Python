@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>0128df15-b58e-4233-bae0-3ca9d7669922</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Helpers\regex.py</StartupFile>
+    <StartupFile>Helpers\tryexceptfinally.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -35,6 +35,7 @@
     <Compile Include="Functions\lambda.py" />
     <Compile Include="Helpers\math.py" />
     <Compile Include="Helpers\regex.py" />
+    <Compile Include="Helpers\tryexceptfinally.py" />
     <Compile Include="Loops\for.py" />
     <Compile Include="Loops\while.py" />
     <Compile Include="program.py" />
