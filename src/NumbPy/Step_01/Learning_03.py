@@ -120,3 +120,96 @@
 #--------------------------------------------------
 #--------------------------------------------------
 #--------------------------------------------------
+
+#--------------------------------------------------
+#--------------------------------------------------
+#Poisson Distribution
+#--------------------------------------------------
+
+#Poisson Distribution is a Discrete Distribution.
+
+#It estimates how many times an event can happen in a specified time.
+#e.g. If someone eats twice a day what is the probability he will eat thrice?
+
+#It has two parameters:
+
+#lam - rate or known number of occurrences e.g. 2 for above problem.
+
+#size - The shape of the returned array.
+
+
+#Difference Between Normal and Poisson Distribution:
+#	Normal distribution is continuous whereas poisson is discrete.
+#	But we can see that similar to binomial for a large enough poisson distribution it will become similar to normal distribution with certain std dev and mean.
+
+#Difference Between Binomial and Poisson Distribution:
+#	Binomial distribution only has two possible outcomes, whereas poisson distribution can have unlimited possible outcomes.
+#	But for very large n and near-zero p binomial distribution is near identical to poisson distribution such that n * p is nearly equal to lam.
+#--------------------------------------------------
+
+#from numpy import random
+
+#result = random.poisson(lam=2, size=10)
+
+#print(result)
+
+#--------------------------------------------------
+
+#from numpy import random
+
+#import seaborn
+#import matplotlib.pyplot as pyplot
+
+#result = random.poisson(lam=2, size=10)
+
+#seaborn.histplot(result, kde=False)
+##seaborn.distplot(result, kde=False)
+
+#pyplot.show()
+
+#--------------------------------------------------
+#--------------------------------------------------
+#--------------------------------------------------
+
+#--------------------------------------------------
+#--------------------------------------------------
+#Uniform Distribution:
+#--------------------------------------------------
+
+#Used to describe probability where every event has equal chances of occuring.
+
+#E.g. Generation of random numbers.
+
+#It has three parameters:
+
+#a - lower bound - default 0 .0.
+
+#b - upper bound - default 1.0.
+
+#size - The shape of the returned array.
+
+#--------------------------------------------------
+
+#from numpy import random
+
+#result = random.uniform(size=(2,3))
+
+#print(result)
+
+#--------------------------------------------------
+
+#from numpy import random
+
+#import seaborn
+#import matplotlib.pyplot as pyplot
+
+#result = random.uniform(size=1000)
+
+##seaborn.histplot(result)
+#seaborn.distplot(result, hist=False)
+
+#pyplot.show()
+
+#--------------------------------------------------
+#--------------------------------------------------
+#--------------------------------------------------
