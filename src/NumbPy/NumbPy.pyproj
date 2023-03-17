@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f973afe8-1262-4c1c-bed6-5a41fe43a645</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Step_01\Learning_01.py</StartupFile>
+    <StartupFile>Step_01\learning_02.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -25,8 +25,12 @@
     <Folder Include="_documents\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Step_01\Learning_01.py" />
-    <Content Include="_documents\Readme.txt" />
+    <Content Include="Step_01\learning_01.py" />
+    <Content Include="_documents\Intro-01.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Step_01\learning_02.py" />
+    <Compile Include="_documents\Intro-02.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
