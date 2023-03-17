@@ -213,3 +213,284 @@
 #--------------------------------------------------
 #--------------------------------------------------
 #--------------------------------------------------
+
+#--------------------------------------------------
+#--------------------------------------------------
+#Logistic Distribution:
+#--------------------------------------------------
+
+#Logistic Distribution is used to describe growth.
+
+#Used extensively in machine learning in logistic regression, neural networks etc.
+
+#It has three parameters:
+
+#loc - mean, where the peak is. Default 0.
+
+#scale - standard deviation, the flatness of distribution. Default 1.
+
+#size - The shape of the returned array.
+
+
+#Difference Between Logistic and Normal Distribution:
+#	Both distributions are near identical, but logistic distribution has more area under the tails
+#	meaning it represents more possibility of occurrence of an event further away from mean.
+#	For higher value of scale (standard deviation) the normal and logistic distributions are near identical apart from the peak.
+
+#--------------------------------------------------
+
+#from numpy import random
+
+#result = random.logistic(loc=1, scale=2, size=(2,3))
+
+#print(result)
+
+#--------------------------------------------------
+
+#from numpy import random
+
+#import seaborn
+#import matplotlib.pyplot as pyplot
+
+#result = random.logistic(loc=1, scale=2, size=(2,3), label="Logistic")
+
+##seaborn.histplot(result)
+#seaborn.distplot(result, hist=False)
+
+#pyplot.show()
+
+#--------------------------------------------------
+#--------------------------------------------------
+#--------------------------------------------------
+
+#--------------------------------------------------
+#--------------------------------------------------
+#Multinomial Distribution
+#--------------------------------------------------
+
+#Multinomial distribution is a generalization of binomial distribution.
+
+#It describes outcomes of multi-nomial scenarios unlike binomial where scenarios must be only one of two. e.g. Blood type of a population, dice roll outcome.
+
+#It has three parameters:
+
+#n - number of possible outcomes (e.g. 6 for dice roll).
+
+#pvals - list of probabilties of outcomes (e.g. [1/6, 1/6, 1/6, 1/6, 1/6, 1/6] for dice roll).
+
+#size - The shape of the returned array.
+
+#--------------------------------------------------
+
+#from numpy import random
+
+#result = random.multinomial(n=6, pvals=[1/6,1/6,1/6,1/6,1/6,1/6])
+
+#print(result)
+
+##Note: Multinomial samples will NOT produce a single value! They will produce one value for each pval.
+
+##Note: As they are generalization of binomial distribution their visual representation and similarity of normal distribution is same as that of multiple binomial distributions.
+
+#--------------------------------------------------
+#--------------------------------------------------
+#--------------------------------------------------
+
+#--------------------------------------------------
+#--------------------------------------------------
+#Exponential Distribution:
+#--------------------------------------------------
+
+#Exponential distribution is used for describing time till next event e.g. failure/success etc.
+
+#It has two parameters:
+
+#scale - inverse of rate ( see lam in poisson distribution ) defaults to 1.0.
+
+#size - The shape of the returned array.
+
+#--------------------------------------------------
+
+#from numpy import random
+
+#result = random.exponential(scale=2, size=(2,3))
+
+#print(result)
+
+#--------------------------------------------------
+
+#from numpy import random
+
+#import seaborn
+#import matplotlib.pyplot as pyplot
+
+#result = random.exponential(size=1000)
+
+##seaborn.histplot(result)
+#seaborn.distplot(result, hist=False)
+
+#pyplot.show()
+
+#--------------------------------------------------
+
+#Relation Between Poisson and Exponential Distribution:
+# Poisson distribution deals with number of occurences of an event in a time period
+# whereas exponential distribution deals with the time between these events.
+
+#--------------------------------------------------
+#--------------------------------------------------
+#--------------------------------------------------
+
+#--------------------------------------------------
+#--------------------------------------------------
+#Chi Square Distribution:
+#--------------------------------------------------
+
+#Chi Square distribution is used as a basis to verify the hypothesis.
+
+#It has two parameters:
+#	df - (degree of freedom).
+#	size - The shape of the returned array.
+
+#--------------------------------------------------
+
+#from numpy import random
+
+#result = random.chisquare(df=2, size=(2, 3))
+
+#print(result)
+
+#--------------------------------------------------
+
+#from numpy import random
+
+#import seaborn
+#import matplotlib.pyplot as pyplot
+
+#result = random.chisquare(df=1, size=1000)
+
+#seaborn.histplot(result)
+#seaborn.distplot(result, hist=False)
+
+#pyplot.show()
+
+#--------------------------------------------------
+#--------------------------------------------------
+#--------------------------------------------------
+
+#--------------------------------------------------
+#--------------------------------------------------
+#Rayleigh Distribution:
+#--------------------------------------------------
+
+#Rayleigh distribution is used in signal processing.
+
+#It has two parameters:
+
+#scale - (standard deviation) decides how flat the distribution will be (default 1.0).
+
+#size - The shape of the returned array.
+
+#--------------------------------------------------
+
+#from numpy import random
+
+#result = random.rayleigh(scale=2, size=(2, 3))
+
+#print(result)
+
+#--------------------------------------------------
+
+#from numpy import random
+
+#import seaborn
+#import matplotlib.pyplot as pyplot
+
+#result = random.rayleigh(size=1000)
+
+#seaborn.histplot(result)
+#seaborn.distplot(result, hist=False)
+
+#pyplot.show()
+
+#--------------------------------------------------
+#--------------------------------------------------
+#--------------------------------------------------
+
+#--------------------------------------------------
+#--------------------------------------------------
+#Pareto Distribution:
+#--------------------------------------------------
+
+#A distribution following Pareto's law i.e. 80-20 distribution (20% factors cause 80% outcome).
+
+#It has two parameter:
+
+#a - shape parameter.
+
+#size - The shape of the returned array.
+
+#--------------------------------------------------
+
+#from numpy import random
+
+#result = random.pareto(a=2, size=(2, 3))
+
+#print(result)
+
+#--------------------------------------------------
+
+#from numpy import random
+
+#import seaborn
+#import matplotlib.pyplot as pyplot
+
+#result = random.pareto(a=2, size=1000)
+
+##seaborn.histplot(result)
+#seaborn.distplot(result, kde=False)
+
+#pyplot.show()
+
+#--------------------------------------------------
+#--------------------------------------------------
+#--------------------------------------------------
+
+#--------------------------------------------------
+#--------------------------------------------------
+#Zipf Distribution:
+#--------------------------------------------------
+
+#Zipf distritutions are used to sample data based on zipf's law.
+
+#Zipf's Law: In a collection, the nth common term is 1/n times of the most common term. E.g. the 5th most common word in English occurs nearly 1/5 times as often as the most common word.
+
+#It has two parameters:
+#	a - distribution parameter.
+#	size - The shape of the returned array.
+
+#--------------------------------------------------
+
+#from numpy import random
+
+#result = random.zipf(a=2, size=(2, 3))
+
+#print(result)
+
+#--------------------------------------------------
+
+#from numpy import random
+
+#import seaborn
+#import matplotlib.pyplot as pyplot
+
+#result = random.zipf(a=2, size=1000)
+
+##seaborn.histplot(result[result<10])
+#seaborn.distplot(result[result<10], kde=False)
+
+#pyplot.show()
+
+#--------------------------------------------------
+#--------------------------------------------------
+#--------------------------------------------------
