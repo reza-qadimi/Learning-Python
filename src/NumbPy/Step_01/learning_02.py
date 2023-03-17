@@ -118,3 +118,41 @@
 #--------------------------------------------------
 #--------------------------------------------------
 #--------------------------------------------------
+
+#--------------------------------------------------
+#--------------------------------------------------
+#--------------------------------------------------
+
+##Visualize Distributions With Seaborn:
+##	Seaborn is a library that uses Matplotlib underneath to plot graphs.
+##	It will be used to visualize random distributions.
+
+##pip install seaborn
+
+##Distplots
+##	Distplot stands for distribution plot
+##	it takes as input an array and plots a curve corresponding to the distribution of points in the array.
+
+#--------------------------------------------------
+
+#import seaborn
+#import matplotlib.pyplot as pyplot
+
+##seaborn.distplot([10, 20, 3, 15, 1000, 60, 16]) #Deprecated
+#seaborn.histplot([10, 20, 3, 15, 1000, 60, 16])
+
+#pyplot.show()
+
+#--------------------------------------------------
+
+#import seaborn
+#import matplotlib.pyplot as pyplot
+
+##Plotting a Distplot Without the Histogram
+#seaborn.distplot([10, 20, 3, 15, 1000, 60, 16], hist=False)
+
+#pyplot.show()
+
+#--------------------------------------------------
+#--------------------------------------------------
+#--------------------------------------------------
